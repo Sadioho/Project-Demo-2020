@@ -3,9 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous"
+ />
+ <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet"
+ />
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="header grid wide row">
+        <!-- one -->
+        <div class="demo_menu col l-8 m-0 c-0">
+           <div class="category row">
+              <li class="category_item">Home</li>
+              <li class="category_item">
+                 About the tests
+                 <i class="fas fa-angle-down"></i>
+                 <ul class="category_second">
+                    <li class="category_item_2">Page Markup And Formatting</li>
+                    <li class="category_item_2">Clearing Floats</li>
+                    <li class="category_item_2">Page with comments</li>
+                    <li class="category_item_2">
+                       Page with comments disabled
+                    </li>
+                    <li class="category_item_2">Lorem Ipsum</li>
+                 </ul>
+              </li>
+              <li class="category_item">
+                 Level 1
+                 <i class="fas fa-angle-down"></i>
+                 <ul class="category_three">
+                    <li class="category_item_2">Level 2</li>
+                    <li class="category_item_2">Level 3</li>
+                 </ul>
+              </li>
+              <li class="category_item">Shop</li>
+           </div>
+        </div>
+        <!-- two -->
+
+        <label
+           class="menu_bar col l-0 m-7"
+           onclick="menu_mobile()"
+           
+        >
+           <i class="fas fa-bars"></i>
+        </label>
+        <div class="menu_mobile" id="menu_mobile">
+           <li class="menu_mobile_items">HOME</li>
+           <li class="menu_mobile_items">
+              ABOUT THE TESTS
+              <ul class="bars_item">
+                 <li class="item_name">
+                    <a href=""> Page Markup And Formatting</a>
+                 </li>
+                 <li class="item_name"><a href="">Clearing Floats </a></li>
+                 <li class="item_name"><a href="">Page with comments </a></li>
+                 <li class="item_name">
+                    <a href="">Page with comments disabled </a>
+                 </li>
+                 <li class="item_name"><a href="">Lorem Ipsum </a></li>
+              </ul>
+           </li>
+           <li class="menu_mobile_items">
+              LEVEL 1
+              <ul class="bars_item">
+                 <li class="item_name"><a href="">Level 2 </a></li>
+                 <li class="item_name"><a href="">Level 3 </a></li>
+              </ul>
+           </li>
+           <li class="menu_mobile_items">SHOP</li>
+        </div>
+
+        <!-- three -->
+        <form class="form_search col l-4 m-5">
+           <input type="text" placeholder="Search" class="input" />
+           <button class="fas fa-search"></button>
+        </form>
+     </header>
 </body>
 </html>

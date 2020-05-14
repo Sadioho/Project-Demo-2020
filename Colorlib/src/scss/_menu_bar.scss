@@ -1,0 +1,22 @@
+.menu_mobile{
+        font-size: 1rem;
+        background-color: $white;
+        position: absolute;
+        width: 100%;
+        z-index: 100;
+        top: 60px;
+        display: none;
+        .menu_mobile_items{
+            margin: 15px 0px 0px 15px;
+            
+            .bars_item{
+                .item_name{
+                    margin: 15px 0;
+                    a{
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+ 
