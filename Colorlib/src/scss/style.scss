@@ -1,8 +1,13 @@
 @import './color';
+@import './@media';
 @import './font';
 @import './grid';
 @import './header';
 @import './menu_bar';
+@import './container';
+@import './slider';
+@import './logo';
+
 
 *{
     box-sizing: border-box;

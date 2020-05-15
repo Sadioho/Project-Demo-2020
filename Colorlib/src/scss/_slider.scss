@@ -1,0 +1,107 @@
+.sliders {
+   position: relative;
+   margin-top: 50px;
+   width: 100%;
+   transition: 0.5s;
+   img {
+      width: 100%;
+   }
+   .view_heading {
+   //   @include responsive(phone){
+   //      display: none;
+   //   };
+      position: absolute;
+      top: auto;
+      bottom: 25%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      color: $white;
+      text-align: center;
+      .heading_slider {
+         font-size: 1.2rem;
+         text-transform: uppercase;
+      }
+      .border_bottom {
+         width: 30px;
+         height: 2px;
+         background-color: $white;
+         margin: 5px auto;
+      }
+
+      .heading_slider_2 {
+         color: $white;
+         font-size: 1.7rem;
+         font-weight: 200;
+         font-style: italic;
+         display: block;
+         margin: 20px 0;
+      }
+
+      .heading_slider_3 {
+         font-size: 1.2rem;
+         font-weight: 900;
+         padding: 0 10px;
+         text-transform: uppercase;
+         border-left: 3px solid $white;
+         border-right: 3px solid $white;
+      }
+      a:hover {
+         color: $purple;
+         transition: 0.4s;
+      }
+   }
+   .dots {
+      @include reponsive(phone) {
+         display: none;
+      }
+      position: absolute;
+      top: auto;
+      bottom: 0%;
+      margin: auto;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .dot {
+         cursor: pointer;
+         height: 15px;
+         width: 15px;
+         border: 2px solid $white;
+         border-radius: 50%;
+         display: inline-block;
+         transition: background-color 0.6s ease;
+      }
+   }
+
+   .fa-chevron-left {
+      position: absolute;
+      font-weight: bold;
+      font-size: 2rem;
+      top: 50%;
+      left: 0;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transform: translate(0, -50%);
+   }
+   .fa-chevron-right {
+      position: absolute;
+      font-size: 2rem;
+      font-weight: bold;
+      top: 50%;
+      right: 0;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transform: translate(0, -50%);
+   }
+}
+.fa-chevron-right:hover {
+   color: $purple;
+   transition: 0.5s;
+}
+.fa-chevron-left:hover {
+   color: $purple;
+   transition: 0.5s;
+}
+.dot:hover {
+   background-color: $white;
+}

@@ -1,0 +1,199 @@
+.container {
+   margin: 20px auto 0;
+   padding: 0 20px;
+   .container_1 {
+      border-bottom: 1px solid $black;
+      .container_blog-item {
+         text-align: center;
+         margin: 50px auto;
+         .item_heading_1 {
+            text-transform: uppercase;
+            color: $black;
+         }
+         .item_border {
+            width: 50px;
+            height: 2px;
+            margin: 10px auto 0;
+            background-color: $purple;
+         }
+         .item_heading_2 {
+            font-size: 1.7rem;
+            font-style: italic;
+            margin: 20px auto;
+            display: block;
+            color: $black;
+         }
+         .item_heading_2:hover{
+            color: $purple;
+            transition: .5s;
+         }
+         .item_para {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            text-align: start;
+            margin-bottom: 20px;
+            color: $black;
+         }
+         .item_img {
+            margin: 20px auto;
+            width: 100%;
+         }
+         .heading_slider_3 {
+            margin: 30px auto;
+            font-size: 1rem;
+            font-weight: 900;
+            padding: 0 10px;
+            text-transform: uppercase;
+            border-left: 3px solid $black;
+            border-right: 3px solid $black;
+            opacity: 0.9;
+         }
+      }
+   }
+   .container_2 {
+      .container_blog-item_1 {
+         text-align: center;
+         margin: 20px auto;
+
+         .item_heading_1 {
+            text-transform: uppercase;
+            color: $black;
+         }
+         .item_heading_1:hover{
+            color: $purple;
+            transition: .5s;
+         }
+         .item_border {
+            width: 50px;
+            height: 2px;
+            margin: 5px auto 0;
+            background-color: $purple;
+         }
+         .item_heading_2 {
+            font-size: 1.7rem;
+            font-style: italic;
+            margin: 10px auto;
+            display: block;
+            color: $black;
+         }
+         .item_heading_2:hover{
+            color: $purple;
+            transition: .5s;
+         }
+         .item_para {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            text-align: start;
+            color: $black;
+         }
+         .item_img {
+            width: 100%;
+            margin: 20px 0;
+         }
+      }
+      .container_blog-item_2 {
+         @extend .container_blog-item_1;
+      }
+      .container_blog-item_3 {
+         @extend.container_blog-item_1;
+      }
+      .container_blog-item_4 {
+         @extend.container_blog-item_1;
+      }
+     
+   }
+   .container_widget {
+      .heading_widget {
+         font-size: 1rem;
+         text-transform: uppercase;
+         font-weight: 200;
+         margin: 20px 0 10px;
+      }
+      .widget_border {
+         width: 50px;
+         height: 2px;
+         background-color: $purple;
+         margin: 20px 0 10px;
+      }
+      .widget_about {
+         margin-top: 50px;
+
+         .about_img {
+            width: 100%;
+            margin: 20px 0;
+         }
+         .about_para {
+            line-height: 2rem;
+            font-size: 0.9rem;
+         }
+      }
+      .widget_follow { 
+         .widget_logo {
+            display: flex;
+            justify-content: center;
+            .fab {
+               font-size: 1rem;
+               opacity: 0.5;
+               margin: 10px 10px 40px;
+            }
+         }
+      }
+      .widget_recent {
+         .recent_item {
+            margin: 10px 0px;
+            display: flex;
+            .recent_img {
+               width: 80px;
+               height: 80px;
+            }
+            .recent_para {
+               margin: 0 10px;
+               .recent_para_1 {
+                  font-size: 0.9rem;
+                  font-style: italic;
+               }
+               .recent_para_2 {
+                  margin-top: 10px;
+                  font-size: 0.7rem;
+               }
+            }
+         }
+      }
+      .widget_search {
+         margin: 30px 0;
+         width: 100%;
+         .widget_input {
+            width: 70%;
+         }
+         .button_search {
+            width: 25%;
+            padding: 4px;
+            border: none;
+         }
+      }
+      .widget_category {
+         .category_item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgb(214, 214, 214);
+            padding: 10px 0;
+            font-size: 0.9rem;
+            a{
+               color: $black;
+            }
+            a:hover{
+               color: $purple;
+               transition: .5s;
+            }
+         }
+         
+       
+      }
+      .eny_text {
+         margin: 50px 0;
+         opacity: 0.7;
+         font-size: 0.9rem;
+      }
+     
+   }
+}

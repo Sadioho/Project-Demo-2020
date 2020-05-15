@@ -1,0 +1,35 @@
+// // mobile & table
+// @media(max-width:1023px){
+
+// }
+// // table
+// @media(min-width:740px)and (max-width:1023px){
+//    .category{
+//       display: none;
+//    }
+          
+   
+// }
+// //mobile
+// @media(max-width:739px){
+
+// }
+@mixin reponsive($breakpoint) {
+    @if $breakpoint== phone {
+        @media(max-width:739px) {
+          @content;
+       }
+    }
+    @if $breakpoint== tab-port {
+        @media (max-width:1023px){
+          @content;
+       }
+    }
+    @if $breakpoint== tab-land {
+        @media(max-width:1336px) {
+          @content;
+       }
+    }
+ }
+ 
+ 

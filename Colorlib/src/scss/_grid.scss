@@ -8,6 +8,7 @@
     margin: 0 auto;
 }
 
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -137,9 +138,15 @@
 .c-o-11 {
     margin-left: 91.66667%;
 }
+.display{
+    display: none;
+}
 
 /* >= Tablet */
 @media (min-width: 740px) {
+    .display{
+        display: none;
+    }
     .row {
         margin-left: -8px;
         margin-right: -8px;
@@ -260,6 +267,9 @@
 
 /* PC medium resolution > */
 @media (min-width: 1113px) {
+    .display{
+        display: block;
+    }
     .row {
         margin-left: -12px;
         margin-right: -12px;
