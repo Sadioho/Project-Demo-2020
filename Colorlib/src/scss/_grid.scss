@@ -7,6 +7,9 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+.display{
+    display: none;
+}
 
 
 .row {
@@ -138,15 +141,10 @@
 .c-o-11 {
     margin-left: 91.66667%;
 }
-.display{
-    display: none;
-}
 
 /* >= Tablet */
 @media (min-width: 740px) {
-    .display{
-        display: none;
-    }
+   
     .row {
         margin-left: -8px;
         margin-right: -8px;
@@ -409,6 +407,10 @@
     .pro{
         display: block;
     }
+    .display{
+        display: block;
+    }
+    
 }
 
 /* > PC low resolution */
@@ -416,6 +418,10 @@
     .wide {
         width: 984px;
     }
+    .display{
+        display: block;
+    }
+    
     .wide .row {
         margin-left: -12px;
         margin-right: -12px;
