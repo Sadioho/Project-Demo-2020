@@ -25,10 +25,15 @@ module.exports = {
       },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Webpack starter project',
-            template: path.resolve('./src/index.html')
+            template: ('./src/index.html'),
+            filename:('index.html'),
         
         }),
+        new HtmlWebpackPlugin({
+         template: ('./src/post_1.html'),
+         filename:('post_1.html'),
+     
+     }),
         new MiniCssExtractPlugin({
          filename: "[name].css",
          chunkFilename:"[id].css"

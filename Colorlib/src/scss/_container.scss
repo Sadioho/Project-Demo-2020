@@ -10,7 +10,7 @@
             text-transform: uppercase;
             color: $black;
          }
-         .item_border {
+         .item_border { 
             width: 50px;
             height: 2px;
             margin: 10px auto 0;
@@ -197,3 +197,73 @@
      
    }
 }
+
+// post_1
+ .post_1{
+    .post_1_heading{
+       border-top: 2px solid $grey;
+       border-bottom:2px solid $grey ;
+       padding: 30px 0;
+       margin: 10px auto;
+       text-align: center;
+    }
+    .post_container{
+       text-align: center;
+       .post_heading{
+         font-size: 1.5rem;
+         font-style: italic;
+         margin: 40px 0 20px;
+       }
+      .post_para{
+         font-size: 0.9rem;
+         opacity: 0.6;
+         margin: 20px 0;
+      }
+
+    }
+    .post_container_img{
+       margin: auto;
+       .post_img{
+          width: 100%;
+       }
+       .para_img{
+          text-align: start;
+          line-height: 40px;
+          font-size: 0.9rem;
+          opacity: 0.6;
+       }
+    }
+    .img_grid{
+       display: flex;
+       flex-wrap: wrap;
+       margin: auto;
+       .column{
+          flex: 30%;
+          padding: 0 2px;
+          img{
+             width: 100%;
+          }
+       }
+       .post_items{
+         display: flex;
+         margin: 20px auto;
+         flex-wrap: wrap;
+         justify-content: center;
+         .item{
+           padding: 0 20px;
+            background-color: $grey;
+            margin: 5px;
+            font-size: 0.8rem;
+         }
+      }
+  
+    }
+    .nav_links{
+      font-size: 0.8rem;
+       display: flex;
+       justify-content:space-between ;
+       margin: 100px auto 30px;
+       flex-wrap: wrap;
+   }
+   
+ }

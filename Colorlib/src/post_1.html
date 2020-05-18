@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header grid wide row">
+      <!-- one -->
+      <div class="demo_menu col l-8 m-0 c-0">
+        <div class="category row">
+          <li class="category_item"><a href="index.html">Home</a></li>
+          <li class="category_item">
+            About the tests
+            <i class="fas fa-angle-down"></i>
+            <ul class="category_second">
+              <li class="category_item_2">Page Markup And Formatting</li>
+              <li class="category_item_2">Clearing Floats</li>
+              <li class="category_item_2">Page with comments</li>
+              <li class="category_item_2">
+                Page with comments disabled
+              </li>
+              <li class="category_item_2">Lorem Ipsum</li>
+            </ul>
+          </li>
+          <li class="category_item">
+            Level 1
+            <i class="fas fa-angle-down"></i>
+            <ul class="category_three">
+              <li class="category_item_2">Level 2</li>
+              <li class="category_item_2">Level 3</li>
+            </ul>
+          </li>
+          <li class="category_item">Shop</li>
+        </div>
+      </div>
+      <!-- two -->
+
+      <label class="menu_bar col l-0 m-7" onclick="menu_mobile()">
+        <i class="fas fa-bars"></i>
+      </label>
+      <div class="menu_mobile" id="menu_mobile">
+        <li class="menu_mobile_items">HOME</li>
+        <li class="menu_mobile_items">
+          ABOUT THE TESTS
+          <ul class="bars_item">
+            <li class="item_name">
+              <a href=""> Page Markup And Formatting</a>
+            </li>
+            <li class="item_name"><a href="">Clearing Floats </a></li>
+            <li class="item_name"><a href="">Page with comments </a></li>
+            <li class="item_name">
+              <a href="">Page with comments disabled </a>
+            </li>
+            <li class="item_name"><a href="">Lorem Ipsum </a></li>
+          </ul>
+        </li>
+        <li class="menu_mobile_items">
+          LEVEL 1
+          <ul class="bars_item">
+            <li class="item_name"><a href="">Level 2 </a></li>
+            <li class="item_name"><a href="">Level 3 </a></li>
+          </ul>
+        </li>
+        <li class="menu_mobile_items">SHOP</li>
+      </div>
+
+      <!-- three -->
+      <form class="form_search col l-4 m-5">
+        <input type="text" placeholder="Search" class="input" />
+        <button class="fas fa-search"></button>
+      </form>
+    </header>
+
+    <div class="main grid wide">
+      <div class="logo row">
+        <img class="img_logo" src="./img/logo.png" alt="" />
+      </div>
+      <p class="heading_1">Just another colorlib.com site</p>
+    </div>
+    <!-- container -->
+    <div class="post_1 grid wide">
+
+
+      <div class="post_1_heading l-12">
+        <a href="">TEMPLATE</a>
+      </div>
+
+
+      <div class="post_container">
+        <p class="post_heading">
+          Template: Featured Image (No Sidebar Layout)
+        </p>
+        <p class="post_para">Posted on November 11, 2015 by Aigars</p>
+      </div>
+
+
+      <div class="post_container_img col l-8">
+        <img src="./img/html_1.jpg" alt="" class="post_img" />
+        <p class="para_img">
+          This post should display a featured image, if the theme supports it.
+        </p>
+        <p class="para_img">
+          Non-square images can provide some unique styling issues.
+        </p>
+        <p class="para_img">This post tests a vertical featured image.</p>
+      </div>
+
+      <!-- img grid -->
+      <div class="img_grid l-8 ">
+          <div class="column">
+            <img src="./img/tem1.jpg" alt="">
+            <img src="./img/tem_3.jpg" alt="">
+            <img src="./img/tem_4.jpg" alt="">
+            <img src="./img/tem_2.jpg" alt="">
+            <img src="./img/tem_5.jpg" alt="">
+            <img src="./img/tem_6.jpg" alt="">
+            <img src="./img/tem_8.jpg" alt="">
+          </div>
+          <div class="column">
+            <img src="./img/tem_9.jpg" alt="">
+            <img src="./img/tem_10.jpg" alt="">
+            <img src="./img/tem_11.jpg" alt="">
+            <img src="./img/tem_12.jpg" alt="">
+            <img src="./img/tem_13.jpg" alt="">
+            <img src="./img/tem_14.jpg" alt="">
+            <img src="./img/tem_9.jpg" alt="">
+          </div>
+          <div class="column">
+            <img src="./img/tem_16.jpg" alt="">
+            <img src="./img/tem_17.jpg" alt="">
+            <img src="./img/tem_18.jpg" alt="">
+            <img src="./img/tem_19.jpg" alt="">
+            <img src="./img/tem_20.jpg" alt="">
+            <img src="./img/tem4.jpg" alt="">
+           
+          </div>
+          <div class="post_items">
+            <div class="item"><a href="">CODEX</a></div>
+            <div class="item"><a href="">EDGE CASE</a></div>
+            <div class="item"><a href="">FEATURED</a></div>
+            <div class="item"><a href="">IMAGE</a></div>
+            <div class="item"><a href="">TEMPLATE</a></div>
+          </div>
+         
+      </div>
+      <div class="nav_links l-8">
+        <div class="nav_previous"><i class="fa fa-chevron-left"></i><a href=""> TEMPLATE: FEATURED IMAGE (FULL WIDTH NO SIDEBAR LAYOUT)</a></div>
+        <div class="nav_next"><a href="">POST FORMAT: GALLERY </a><i class="fa fa-chevron-right"></i></div>
+
+      </div>
+      <!-- item -->
+    
+    </div>
+    <!-- end container -->
+
+    <div class="footer">
+      <div class="footer_logo">
+        <i class="hover fab fa-google-plus-g"></i>
+        <i class="hover fab fa-facebook-f"></i>
+        <i class="hover fab fa-youtube"></i>
+        <i class="hover fab fa-twitter"></i>
+        <i class="hover fab fa-instagram"></i>
+        <i class="hover fab fa-github"></i>
+      </div>
+      <p class="footer_para">
+        Activello. Theme by Colorlib Powered by WordPress
+      </p>
+    </div>
+  </body>
+</html>

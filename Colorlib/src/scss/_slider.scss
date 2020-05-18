@@ -21,6 +21,7 @@
       .heading_slider {
          font-size: 1.2rem;
          text-transform: uppercase;
+         color: $white;
       }
       .border_bottom {
          width: 30px;
@@ -45,6 +46,7 @@
          text-transform: uppercase;
          border-left: 3px solid $white;
          border-right: 3px solid $white;
+         color: $white;
       }
       a:hover {
          color: $purple;
