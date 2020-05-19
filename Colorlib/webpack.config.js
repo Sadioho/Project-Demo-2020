@@ -34,6 +34,11 @@ module.exports = {
          filename:('post_1.html'),
      
      }),
+     new HtmlWebpackPlugin({
+      template: ('./src/post_2.html'),
+      filename:('post_2.html'),
+  
+  }),
         new MiniCssExtractPlugin({
          filename: "[name].css",
          chunkFilename:"[id].css"

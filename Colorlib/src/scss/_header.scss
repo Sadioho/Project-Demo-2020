@@ -4,6 +4,7 @@
    font-size: 0.9rem;
    justify-content: space-between;
    position: relative;
+   font-weight: bold;
    .menu_bar {
       font-size: 1.4rem;
    }
@@ -11,7 +12,15 @@
       .category_item {
          margin: 0 20px;
          text-transform: uppercase;
-
+         a{
+            color: $black;
+         }
+         a:hover{
+            color: $purple;
+         }
+         .color_purple{
+            color: $purple;
+         }
          .category_second {
             text-transform: none;
             position: absolute;
@@ -22,6 +31,10 @@
             .category_item_2 {
                padding: 7px;
                border: 1px solid rgb(143, 140, 140);
+            }
+            .category_item_2:hover{
+               background-color: $purple;
+              a{ color: $white;}
             }
          }
          .category_three {

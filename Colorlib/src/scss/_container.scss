@@ -47,6 +47,7 @@
             border-left: 3px solid $black;
             border-right: 3px solid $black;
             opacity: 0.9;
+            color: $black;
          }
       }
    }
@@ -254,6 +255,15 @@
             background-color: $grey;
             margin: 5px;
             font-size: 0.8rem;
+            a{
+               color: $black;
+            }
+         }
+         .item:hover{
+            background-color: $purple;
+            a{
+               color: $white;
+            }
          }
       }
   
@@ -264,6 +274,16 @@
        justify-content:space-between ;
        margin: 100px auto 30px;
        flex-wrap: wrap;
+       .nav_previous:hover{
+          color: $purple;
+          a{
+             color: $purple;
+          }
+       }
+       .nav_next:hover{
+          @extend .nav_previous:hover;
+       }
    }
+   
    
  }
